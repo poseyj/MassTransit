@@ -41,3 +41,8 @@ When deploying your mass transit enabled application it is possible to have Wind
         <util:PerformanceCounter Name="Average Publish Duration Base" Help="The average time to publish a message." Type="averageBase"/>
       </util:PerformanceCategory>
     </Component>
+
+Enabling Performance Counters
+"""""""""""""""""""""""""""""
+
+To enable the performance counters, call EnablePerformanceCounters() on the bus configurator.
